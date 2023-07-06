@@ -1,0 +1,286 @@
+body {
+    display: grid;
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#icon {
+    margin-right: auto;
+}
+
+.header_nav {
+    margin-left: 12%;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header_nav:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+#btn_hbg {
+    border: 0px solid;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+#btn_hbg_close{
+    background: none;
+    border: 0px;
+    margin-left:auto ;
+    cursor: pointer;
+    margin-bottom: 50%;
+}
+
+main {
+    display: flex;
+    width: 100%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#desktop_img {
+    width: 100%;
+}
+
+
+#main_title {
+    margin: 0px;
+    font-size: 320%;
+    font-weight: 800;
+    width: 49%;
+}
+
+#section_1 {
+    margin-top: 5%;
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    width: 100%;
+}
+
+#section_2 {
+    display: flex;
+    flex-direction: column;
+    width: 51%;
+}
+
+#btn {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    width: 63%;
+    height: 45px;
+    color: white;
+    border: 0px solid;
+    background-color: hsl(5, 85%, 63%);
+    margin-top: auto;
+    cursor: pointer;
+    padding: 6.3%;
+}
+
+#btn:hover {
+    background-color: hsl(240, 100%, 5%);
+    color: white;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 100%, 5%);
+    margin-left: 3%;
+    padding: 2%;
+    padding-top: 0;
+    width: 49%;
+}
+
+#aside_title {
+    color: hsl(35, 77%, 62%);
+    font-weight: 700;
+    font-size: 200%;
+}
+
+.aside_sub_title {
+    width: fit-content;
+}
+
+.aside_sub_title:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.aside_section {
+    color: hsl(36, 100%, 99%);
+    display: flex;
+    flex-direction: column;
+}
+
+.aside_body {
+    margin: 0px;
+    font-weight: 100;
+    color: hsl(233, 8%, 79%);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 100%;
+    background-color: hsl(236, 13%, 42%);
+    color: hsl(236, 13%, 42%);
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    height: 40%;
+    width: fit-content;
+    width: 100%;
+}
+
+.footer_number {
+    margin: 0px;
+    font-weight: 800;
+    font-size: 250%;
+    color: hsl(233, 8%, 79%);
+}
+
+.footer_section {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.footer_title {
+    font-size: 15px;
+    width: fit-content;
+}
+
+.footer_title:hover {
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+.img_footer {
+    height: 100%;
+}
+
+.body_footer_news {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    width: 100%;
+}
+
+.body_footer {
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+
+@media(max-width: 1200px) {
+
+    body {
+        width: 92%;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #section_1 {
+        flex-direction: column;
+    }
+
+    #section_2 {
+        width: 100%;
+    }
+
+    #main_title {
+        width: auto;
+    }
+
+    aside {
+        width: 91%;
+        margin-left: 0;
+        margin-top: 20%;
+        padding: 5%;
+
+    }
+
+    .aside_section {
+        display: block;
+    }
+
+
+    footer {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        flex-direction: column;
+    }
+
+    .img_footer {
+        width: 30%;
+    }
+
+    .footer_section {
+        margin-top: 10%;
+    }
+
+    .body_footer {
+        font-size: 16px;
+    }
+
+    #menu {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: rgb(255, 255, 255);
+        transition: left 2s ease;
+        height: 100vh;
+        width: 70%;
+    }
+
+    .header_nav {
+        font-size: 200%;
+        line-height: 0.5px;
+    }
+
+}
