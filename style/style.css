@@ -24,6 +24,7 @@ header {
 }
 
 .header_nav {
+    color: hsl(236, 13%, 42%);
     margin-left: 12%;
 }
 
@@ -89,13 +90,15 @@ article {
     display: flex;
     flex-direction: column;
     width: 51%;
+    line-height: 130%;
+    color: hsl(236, 13%, 42%);
 }
 
 #btn {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 4px;
-    width: 63%;
+    width: 55%;
     height: 45px;
     color: white;
     border: 0px solid;
@@ -122,7 +125,8 @@ aside {
 #aside_title {
     color: hsl(35, 77%, 62%);
     font-weight: 700;
-    font-size: 200%;
+    font-weight: bold;
+    font-size: 220%;
 }
 
 .aside_sub_title {
@@ -166,7 +170,7 @@ footer {
 .footer_number {
     margin: 0px;
     font-weight: 800;
-    font-size: 250%;
+    font-size: 200%;
     color: hsl(233, 8%, 79%);
 }
 
