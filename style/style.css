@@ -271,16 +271,16 @@ footer {
         display: flex;
         position: absolute;
         flex-direction: column;
-        justify-content: flex-start;
+        margin-bottom: auto;
         background-color: rgb(255, 255, 255);
-        transition: left 2s ease;
-        height: 100vh;
+        height: max-content;
         width: 70%;
     }
 
     .header_nav {
-        font-size: 200%;
+        font-size: 150%;
         line-height: 0.5px;
+        display: flex;
     }
 
 }
